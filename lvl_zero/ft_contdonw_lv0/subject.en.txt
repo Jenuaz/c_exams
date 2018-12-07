@@ -1,0 +1,6 @@
+Write a programm that displays all digits in descending order followed by a new line.
+
+Example:
+$>./a.out | cat -e
+9876543210$
+$>
