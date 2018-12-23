@@ -45,7 +45,7 @@ void		repeat_alpha(char *str)
 
 int			main(int ac, char **av)
 {
-	if (ac == 2)
+	if (ac == 2 && *av[1] != '\0')
 		repeat_alpha(av[1]);
 	else
 		ft_newline();
