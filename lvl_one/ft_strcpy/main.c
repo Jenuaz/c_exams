@@ -17,7 +17,7 @@ char		*ft_strcpy(char *dest, char *src)
 
 int main(void)
 {
-	char hello[40];
+	char hello[1];
 	char world[20];
 
 	printf("%s", ft_strcpy(hello, "FOF"));	
